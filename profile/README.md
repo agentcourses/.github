@@ -4,21 +4,21 @@
 </picture>
 
 [Agent Courses](https://agentcourses.io) is an open, folder-based format for courses that an AI agent teaches in the learner's own project.
-A course is a readable folder of Markdown, YAML and check programs.
-The agent tutors and can type the edits; the learner owns the decisions.
+A course is a folder of Markdown files: lessons, checks and rubrics.
+The agent may do the typing, but the learner makes the decisions, and only evidence counts as progress.
 
 ## Getting started
 
 - [Documentation](https://agentcourses.io): the overview and guides
-- [Specification](https://agentcourses.io/specification/): the full format
-- [Author quickstart](https://agentcourses.io/authors/quickstart/): write and check a first course
-- [Add course support](https://agentcourses.io/implementers/support/): build a runner
+- [Specification](https://agentcourses.io/specification/): the whole format on one page
+- [Quickstart](https://agentcourses.io/quickstart/): write and check a first course
+- [Adding course support](https://agentcourses.io/runners/): build a runner
 
 ## Repositories
 
-- [agentcourses](https://github.com/agentcourses/agentcourses): specification, schemas, examples and documentation
+- [agentcourses](https://github.com/agentcourses/agentcourses): specification, schemas, examples, conformance cases, the `agentcourses` command and the documentation site
 
 ## About
 
-Agent Courses 1.0 is a candidate specification, open for review.
-It is licensed under Apache-2.0 and open to contributions; see the [contributing guide](https://github.com/agentcourses/agentcourses/blob/main/docs/CONTRIBUTING.md).
+Agent Courses is in beta (0.1); the format may change before 1.0.
+It is licensed under Apache-2.0 and open to contributions; see the [contributing guide](https://github.com/agentcourses/agentcourses/blob/main/CONTRIBUTING.md).
